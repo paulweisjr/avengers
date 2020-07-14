@@ -20,5 +20,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>I am as smart as Iron Man</title>
+      <link>https://avengers-ops.azurewebsites.net/posts/i-am-as-smart-as-iron-man/</link>
+      <pubDate>Tue, 14 Jul 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://avengers-ops.azurewebsites.net/posts/i-am-as-smart-as-iron-man/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I am as strong as Thor</title>
+      <link>https://avengers-ops.azurewebsites.net/posts/i-am-as-strong-as-thor/</link>
+      <pubDate>Tue, 14 Jul 2020 05:00:00 +0000</pubDate>
+      
+      <guid>https://avengers-ops.azurewebsites.net/posts/i-am-as-strong-as-thor/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
