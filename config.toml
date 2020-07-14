@@ -1,4 +1,4 @@
 baseURL = "https://avengers-ops.azurewebsites.net/"
 languageCode = "en-us"
-title = "Avengers Site"
 theme = "ananke"
+title = "Avengers Site"
