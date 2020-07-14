@@ -9,5 +9,6 @@ fields:
   name: date
   label: date
 pages:
+- content/avenger-page.md
 - content/posts/i-am-as-smart-as-iron-man.md
 - content/posts/i-am-as-strong-as-thor.md
