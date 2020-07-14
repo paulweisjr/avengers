@@ -8,6 +8,15 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text Area
 pages:
 - content/avenger-page.md
 - content/posts/i-am-as-smart-as-iron-man.md
