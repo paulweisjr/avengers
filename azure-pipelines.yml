@@ -1,0 +1,25 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    rm -rf public
+  displayName: 'Remove existing public folder'
+
+- script: HOMEBREW_NO_AUTO_UPDATE=1 brew install hugo
+  displayName: 'Install Hugo'
+
+- script: |
+    hugo -v -b https://avengers-ops.azurewebsites.net
+  displayName: 'Build Hugo site'
+  
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'IT Operations (87b05aa9-93bd-4046-8646-17138427d3a4)'
+    appType: 'webApp'
+    WebAppName: 'avengers-ops'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/public'
